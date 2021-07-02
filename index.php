@@ -1,4 +1,8 @@
-<?php ?>
+<?php 
+
+    echo 'Hola amundo';
+
+?>
 
 
 
@@ -12,7 +16,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="keywords" content="">
-     <meta name="author" content="Jesus Miranda">
+    <meta name="author" content="Jesus Miranda">
 <!-- **************************  -->
 <!-- **************************  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

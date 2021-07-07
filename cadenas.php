@@ -21,4 +21,12 @@ EOD;
 echo $cadena;
 
 
+$texto1 = 'Este es un texto';
+$texto2 = 'Este es otro texto';
+$salida = $texto1 . ' ';
+$salida .= $texto2;
+echo  $texto1 . ' ' . $texto2;
+echo $salida;
+
+
 ?>

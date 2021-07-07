@@ -5,6 +5,12 @@
     print 'Hola   ';
     echo 'Hola amundo';
 
+
+
+require('cadenas.php');
+
+
+
 ?>
 
 

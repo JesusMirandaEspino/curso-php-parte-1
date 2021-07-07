@@ -1,5 +1,8 @@
 <?php 
-
+// comentarios
+#comentarios
+/*  comentarios */
+    print 'Hola   ';
     echo 'Hola amundo';
 
 ?>
@@ -41,6 +44,9 @@
 <!-- **************************  -->
 <!-- **************************  -->
     <header>
+
+
+    <h1><?php  echo 'Hola mundo' ?></h1>
 
 
     </header>

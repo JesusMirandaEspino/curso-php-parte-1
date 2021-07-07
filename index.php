@@ -8,7 +8,7 @@
 
 
 require('cadenas.php');
-
+require('numeros.php');
 
 
 ?>

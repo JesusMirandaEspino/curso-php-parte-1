@@ -10,6 +10,12 @@
 require('cadenas.php');
 require('numeros.php');
 
+require('num.php');
+
+
+
+
+
 
 ?>
 

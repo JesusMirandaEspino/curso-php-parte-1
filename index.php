@@ -13,6 +13,7 @@ require('numeros.php');
 require('num.php');
 
 
+require('sentencias.php');
 
 
 

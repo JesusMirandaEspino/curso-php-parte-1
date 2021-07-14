@@ -85,4 +85,8 @@ echo  '   ' . $temp1 . ' ';
         echo '  ' . $semana[$i] . ' ';
     }
 
+    foreach ( $semana as $dia  ) {
+        echo '  ' . $dia . ' ';
+    }
+
 ?>

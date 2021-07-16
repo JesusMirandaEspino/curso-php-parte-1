@@ -47,4 +47,45 @@ foreach ($nuevosNumeros2 as $num) {
     echo  '<p>' .  $num .  '  '  . '</p>';
 }
 
+
+
+echo  '<p>' .   '======================='  . '</p>' ;
+
+
+$naturales = [ 3,7,8,9,3,4,5 ];
+
+
+echo  '<p>' .   '=========================='  . '</p>';
+
+foreach ($naturales as $n) {
+    echo  '<p>' .  $n .  '  '  . '</p>';
+}
+
+sort( $naturales );
+
+echo  '<p>' .   '========================='  . '</p>';
+
+foreach ($naturales as $n) {
+    echo  '<p>' .  $n .  '  '  . '</p>';
+}
+
+echo  '<p>' .   '****=========================****'  . '</p>';
+
+
+asort( $arregloA );
+
+foreach ($arregloA as $arr => $key) {
+    echo  '<p>' .  $key .  '  ' . $arr . '</p>';
+}
+
+
+echo  '<p>' .   '======================='  . '</p>';
+
+shuffle( $listaNumeros );
+
+foreach ($listaNumeros as $arr ) {
+    echo  '<p>' . $arr . '</p>';
+}
+
+echo  '<p>' .   '======================='  . '</p>';
 ?>

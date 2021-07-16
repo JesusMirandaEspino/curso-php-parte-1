@@ -15,6 +15,8 @@ require('num.php');
 
 require('sentencias.php');
 
+require('arreglos.php');
+
 
 
 

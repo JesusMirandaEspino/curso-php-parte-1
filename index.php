@@ -17,6 +17,7 @@ require('sentencias.php');
 
 require('arreglos.php');
 
+require('arreglos2.php');
 
 
 

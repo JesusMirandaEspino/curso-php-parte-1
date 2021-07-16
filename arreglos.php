@@ -49,7 +49,7 @@ foreach ($nuevosNumeros2 as $num) {
 
 
 
-echo  '<p>' .   '======================='  . '</p>' ;
+echo  '<p>' .   '=======================****'  . '</p>' ;
 
 
 $naturales = [ 3,7,8,9,3,4,5 ];
@@ -86,6 +86,34 @@ shuffle( $listaNumeros );
 foreach ($listaNumeros as $arr ) {
     echo  '<p>' . $arr . '</p>';
 }
+
+
+echo  '<p>' .   '****=========================****'  . '</p>';
+
+$aleatorios = array_rand($listaNumeros, 3 );
+
+foreach ($aleatorios as $arr) {
+    echo  '<p>' . $arr . '</p>';
+}
+
+
+
+echo  '<p>' .   '****==============****===========****'  . '</p>';
+rsort($listaNumeros);
+
+foreach ($listaNumeros as $arr) {
+    echo  '<p>' . $arr . '</p>';
+}
+
+echo  '<p>' .   '****==============**===**===========****'  . '</p>';
+
+
+arsort($listaNumeros);
+
+foreach ($listaNumeros as $arr) {
+    echo  '<p>' . $arr . '</p>';
+}
+
 
 echo  '<p>' .   '======================='  . '</p>';
 ?>

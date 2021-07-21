@@ -3,6 +3,9 @@
     $nombre = 'Jesus';
     $mensaje = 'Hola a todos';
 
+    function suma( int $a, int $b ): int{
+        return $a + $b;
+    }
 
 
     function saludar($nombre){
@@ -28,5 +31,10 @@ $nom = 'Mutuelo';
     saludar('Mutuelo');
 
     echo areaRec( 5, 6 );
+
+    echo  '</br>';
+
+    echo suma( 3, 4 );
+
 
 ?>

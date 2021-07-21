@@ -3,6 +3,7 @@
 
 require('global.php');
 
+require('list.php');
 
 ?>
 

@@ -70,4 +70,21 @@ foreach( $gen as $v){
 } 
 
 
+
+function gen1(){
+    yield 1;
+    yield 2;
+    yield from gen2();
+}
+
+function gen2(){
+    yield 3;
+    yield 4;
+
+}
+
+foreach (gen1() as $v) {
+    echo  '<p>' .  $v .  '</p>';
+} 
+
 ?>

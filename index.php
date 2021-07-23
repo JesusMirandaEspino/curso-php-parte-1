@@ -6,9 +6,11 @@ require('global.php');
 
 require('list.php');
 
-require('funciones.php');  */
+require('funciones.php');  
 
-require('strict.php');
+require('strict.php');*/
+
+require('anonimas.php');
 
 ?>
 

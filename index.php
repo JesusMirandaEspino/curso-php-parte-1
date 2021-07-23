@@ -1,11 +1,14 @@
 <?php
 
+/* Se oculta los demas archivos para evitar demasiadas salidas a pantalla
 
 require('global.php');
 
 require('list.php');
 
-require('funciones.php');
+require('funciones.php');  */
+
+require('strict.php');
 
 ?>
 
